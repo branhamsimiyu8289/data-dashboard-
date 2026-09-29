@@ -44,6 +44,7 @@ The SMP Command Centre serves as a central hub for processing and visualizing pe
 
 ## 📐 Data Architecture
 
+
 ┌──────────────────────┐
                    │ Raw Endpoint Feeds   │
                    └──────────┬───────────┘
