@@ -109,14 +109,12 @@ python main.py
   5. Member 5
   6. Member 6
 
- 
   SECTION 1: MEMBER PERFORMANCE
   Total members:               6
   Hit {STEP_GOAL:,} step goal: 4/6
   Average steps:               9,500
   Cold showers today:          5/6
   Goal hitters: Member 2, Member 4, Member 6
-  
 ---------------------------------------------------------
 
   SECTION 2: WEEKLY STEPS
