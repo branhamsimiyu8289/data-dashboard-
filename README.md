@@ -1,10 +1,10 @@
 # 📊 SMP Command Centre Dashboard
 
+A lightweight, terminal-based analytics dashboard and data pipeline written in Python. The **SMP Command Centre** aggregates member activity metrics (daily steps, dietary fasting protocols, sleep, cold shower compliance, and more) with weekly trend analysis and skill ecosystem reporting to provide a single, actionable operational view.
+
 The project addresses a common problem in performance management: important metrics are scattered across disconnected sources, making it difficult to track progress, identify weak points, and act on trends in time. Without a single view of member activity, weekly results, and skill engagement, organizations often rely on manual reporting and fragmented data.
 
 This solution solves that by consolidating all relevant data into one lightweight Python dashboard. It automatically aggregates member metrics, summarizes weekly performance, and highlights active skills, presenting the information in a clear terminal interface and exportable JSON format. The result is a faster, more consistent way to monitor performance and make informed decisions.
-
-A lightweight, terminal-based analytics dashboard and data pipeline written in Python. The **SMP Command Centre** aggregates member activity metrics (daily steps, dietary fasting protocols, sleep, cold shower compliance, and more) with weekly trend analysis and skill ecosystem reporting to provide a single, actionable operational view.
 
 ---
 
