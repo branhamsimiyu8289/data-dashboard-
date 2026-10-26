@@ -1,9 +1,5 @@
 # 📊 SMP Command Centre Dashboard
 
-![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
-
 A lightweight, terminal-based analytics dashboard and data pipeline written in Python. The **SMP Command Centre** aggregates member activity metrics (daily steps, dietary fasting protocols, sleep, cold exposure habits), tracks weekly community-wide physical output, monitors active skill-sharing class enrollments, and exports structured operational summaries in JSON format.
 
 ---
