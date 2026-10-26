@@ -1,6 +1,10 @@
 # 📊 SMP Command Centre Dashboard
 
-A lightweight, terminal-based analytics dashboard and data pipeline written in Python. The **SMP Command Centre** aggregates member activity metrics (daily steps, dietary fasting protocols, sleep, cold exposure habits), tracks weekly community-wide physical output, monitors active skill-sharing class enrollments, and exports structured operational summaries in JSON format.
+The project addresses a common problem in performance management: important metrics are scattered across disconnected sources, making it difficult to track progress, identify weak points, and act on trends in time. Without a single view of member activity, weekly results, and skill engagement, organizations often rely on manual reporting and fragmented data.
+
+This solution solves that by consolidating all relevant data into one lightweight Python dashboard. It automatically aggregates member metrics, summarizes weekly performance, and highlights active skills, presenting the information in a clear terminal interface and exportable JSON format. The result is a faster, more consistent way to monitor performance and make informed decisions.
+
+A lightweight, terminal-based analytics dashboard and data pipeline written in Python. The **SMP Command Centre** aggregates member activity metrics (daily steps, dietary fasting protocols, sleep, cold shower compliance, and more) with weekly trend analysis and skill ecosystem reporting to provide a single, actionable operational view.
 
 ---
 
@@ -117,11 +121,11 @@ python main.py
   DAY     TOTAL STEPS    BAR
   Mon     :     54,200   ||||||||||
   Tue     :     62,000   ||||||||||||
-  Wed     :     58,400   |||||||||||
+  Wed     :     58,400   ||||||||||
   Thu     :     71,000   ||||||||||||||
-  Fri     :     49,600   |||||||||
-  Sat     :     68,000   |||||||||||||
-  Sun     :     65,200   |||||||||||||
+  Fri     :     49,600   ||||||||
+  Sat     :     68,000   ||||||||||||
+  Sun     :     65,200   ||||||||||||
   Best day: Thu (71,000 total steps)
   Week avg: 61,200 steps/day
 ---------------------------------------------------------
