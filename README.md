@@ -45,7 +45,7 @@ The SMP Command Centre serves as a central hub for processing and visualizing pe
 ## 📐 Data Architecture
 
 ```text
-┌──────────────────────┐
+                   ┌──────────────────────┐
                    │ Raw Endpoint Feeds   │
                    └──────────┬───────────┘
                               │
@@ -54,19 +54,19 @@ The SMP Command Centre serves as a central hub for processing and visualizing pe
 ┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐
 │  fetch_members() │    │ fetch_weekly...()│    │  fetch_skills()  │
 └────────┬─────────┘    └────────┬─────────┘    └────────┬─────────┘
-│                        │                        │
-▼                        ▼                        ▼
+        │                        │                        │
+        ▼                        ▼                        ▼
 ┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐
 │ process_members()│    │ process_weekly() │    │ process_skills() │
 └────────┬─────────┘    └────────┬─────────┘    └────────┬─────────┘
-│                        │                        │
-└────────────────────────┼────────────────────────┘
-│
-▼
-┌──────────────────────┐
-│  Formatted Dashboard │
-│    & JSON Export     │
-└──────────────────────┘
+        │                        │                        │
+        └────────────────────────┼────────────────────────┘
+                                 │
+                                 ▼
+                      ┌──────────────────────┐
+                      │  Formatted Dashboard │
+                      │    & JSON Export     │
+                      └──────────────────────┘
 ```
 
 ---
@@ -193,4 +193,7 @@ smp-command-centre/
 
 ## 📜 License
 Distributed under the MIT License. See LICENSE for more information.
+
+##Auther
+Branham Simiyu
 
