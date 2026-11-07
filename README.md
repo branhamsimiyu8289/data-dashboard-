@@ -191,9 +191,6 @@ smp-command-centre/
 └── .gitignore         # Standard git ignore configurations
 ```
 
-## 📜 License
-Distributed under the MIT License. See LICENSE for more information.
-
 ## Auther
 Branham Simiyu
 
